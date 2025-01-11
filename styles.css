@@ -1,0 +1,70 @@
+.ytp-subtitle-extract-button {
+    background: #FF0000;
+    color: white;
+    border: none;
+    padding: 0 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'YouTube Noto', Roboto, Arial, sans-serif;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    height: 36px;
+    min-width: 140px;
+    font-weight: 500;
+    margin-right: 8px;
+    box-shadow: none;
+    white-space: nowrap;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.ytp-subtitle-extract-button:hover {
+    background: #CC0000;
+}
+
+.ytp-subtitle-extract-button:active {
+    background: #990000;
+}
+
+.ytp-subtitle-extract-button svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    fill: white;
+}
+
+.subtitle-notification {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #e0e0e0;
+    color: black;
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-family: 'YouTube Noto', Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 9999;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.subtitle-notification.show {
+    opacity: 1;
+}
+
+.title-container-with-button {
+    position: relative;
+}
+
+/* Focus styles for accessibility */
+.ytp-subtitle-extract-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #FF0000;
+} 
