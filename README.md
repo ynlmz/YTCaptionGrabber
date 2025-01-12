@@ -17,10 +17,14 @@ A Chrome extension that allows you to easily extract subtitles from YouTube vide
 ## 📸 Screenshots
 
 ### Extension Interface
-![Extension Popup Interface](assets/popup-interface.png)
+<p align="center">
+  <img src="assets/popup-interface.png" alt="Extension Popup Interface" width="300"/>
+</p>
 
 ### Extract Button on YouTube
-![Extract Button Preview](assets/button-preview.png)
+<p align="center">
+  <img src="assets/button-preview.png" alt="Extract Button Preview"/>
+</p>
 
 ## 🚀 Installation
 
